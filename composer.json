@@ -1,0 +1,23 @@
+{
+    "name": "ds-urquiza/gestion_hotel",
+    "description": "Sistema de gestion para reservas de un hotel",
+    "autoload": {
+        "psr-4": {
+            "DsUrquiza\\GestionHotel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eesstteeff",
+            "email": "estefaniamarzano@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "doctrine/doctrine-migrations-bundle": "^3.3",
+        "doctrine/doctrine-bundle": "^2.13",
+        "doctrine/migrations": "^3.8",
+        "doctrine/orm": "^3.2",
+        "doctrine/dbal": "^4.1"
+    }
+}
